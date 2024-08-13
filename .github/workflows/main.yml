@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Instal dependencies
-        run: npm install
-
       - name: Run script
         run: node main.js
         
